@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <h1 class="cinzel bold">Secret Santa Generator</h1>
+            <div class="select-file">
+                <div class="file">
+                    <input type="file" class="uploadButton" id="employeeFile"
+                        onchange="handleFileUpload('employeeFile')">
+                    <label for="employeeFile">Empoyee file</label>
+                </div>
+                <div class="file">
+                    <input type="file" class="uploadButton" id="prevSSFile" onchange="handleFileUpload('prevSSFile')">
+                    <labelfor="prevSSFile">Previous year Secret Santa file</label>
+                </div>
+            </div>
+            <button class="big-button" onclick="generateSS()">Generate Secret Santa</button>
+            <div class="download-panel">
+                <h4 class="cinzel small">Download files</h4>
+                <div class="download-btns">
+                    <button class="small-btn" onclick="downloadFile('ss')">SS file</button>
+                    <button class="small-btn" onclick="downloadFile('test')">Test file</button>
+                </div>
+            </div>
+        </div>
+        <div class="right-panel">
+            <table id="outputTable"></table>
+        </div>
+    </div>
+</body>
+<script src="HandleFile.js" charset="utf-8"></script>
+<script src="main.js" charset="utf-8"></script>
+
+</html>

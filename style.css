@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  overflow-y: auto;
+}
+
+body {
+  display: flex;
+  background-color: #e7ede9;
+  color: darkgrey;
+  box-sizing: border-box;
+  padding-top: 50px;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80%;
+  background-color: #23486a;
+  min-height: 100vh;
+  overflow-y: auto;
+  opacity: 80%;
+  border-radius: 15px;
+  border: 2px solid #4d5562;
+  padding: 20px;
+  margin: 5px;
+}
+
+button {
+  background-color: #f9fafb;
+  border-radius: 10px;
+  color: #4d5562;
+  border: none;
+  border-radius: 10px;
+  height: 80px;
+  margin: 5px;
+  padding: 10px;
+}
+
+.big-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  border: 2px solid darkgrey;
+  box-shadow: 5px 5px 10px gray;
+  border-radius: 10px;
+  /* color: #cdd5e0; */
+  font-weight: bold;
+  height: 50px;
+  width: 300px;
+  padding: 5px;
+  margin: 10px 0px;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.file {
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  margin: 15px;
+}
+
+.uploadButton {
+  height: 50px;
+}
+.small-btn {
+  height: 50px;
+  width: 100px;
+  border: 2px solid darkgrey;
+  box-shadow: 5px 5px 10px gray;
+}
+.download-panel {
+  display: none;
+  flex-direction: column;
+  margin: 20px;
+}
+.left-panel {
+  flex: 1;
+  margin: 15px;
+}
+.right-panel {
+  background-color: whitesmoke;
+  flex: 3;
+  overflow-x: auto;
+  border-radius: 20px;
+  display: none;
+  border: 2px solid darkgrey;
+  box-shadow: 5px 5px 10px gray;
+  padding: 10px;
+  margin: 15px;
+  color: black;
+}
+
+.cinzel {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.small {
+  font-weight: 400;
+}
+
+.outputTable {
+  width: 100%;
+  max-width: none;
+  overflow-x: auto;
+  border: 1px solid black;
+  padding: 10px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid black;
+  text-align: left;
+}
+
+th {
+  background-color: lightgray;
+}
+
+@media only screen and (max-width: 640px) {
+  .container {
+    flex-direction: column;
+    overflow-y: visible;
+    height: auto;
+    min-height: 100vh;
+  }
+  .left-panel {
+    width: 100%;
+  }
+  .right-panel {
+    width: 100%;
+    font-size: small;
+    overflow-x: visible;
+  }
+  /* table {
+    max-height: none;
+    /* overflow-y: auto; */
+}
