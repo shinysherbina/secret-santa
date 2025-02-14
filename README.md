@@ -1,35 +1,36 @@
-# secret-santa
-Program to create unique Secret Santa 
 
-Secret Santa is a game played in teams. Here a person will choose another person as their secret child, to whom they will anonymously assign secret tasks and give gifts during the event. This program generates secret santa for the employees of a company.
+**Program to Create a Unique Secret Santa**  
 
-Assumption:
-Input : CSV file of the employees with the follwing fields
-*  Employee_Name: The name of the employee.
-*  Employee_EmailID: The email ID of the employee.
+Secret Santa is a game played in teams. Each participant is assigned another person as their **Secret Child**, to whom they will anonymously assign secret tasks and give gifts during the event. This program generates Secret Santa assignments for employees of a company.  
 
-Output: CSV file with the following fields
-* Employee_Name: The name of the employee.
-* Employee_EmailID: The email ID of the employee.
-* Secret_Child_Name: The name of the employee.
-* Secret_Child_EmailID: The email ID of the employee.
+### **Assumptions:**  
+**Input:** A CSV file containing the following fields:  
+- **Employee_Name**: The name of the employee.  
+- **Employee_EmailID**: The email ID of the employee.  
 
-This program uses plain HTML, CSS and Javascript.
+**Output:** A CSV file containing the following fields:  
+- **Employee_Name**: The name of the employee.  
+- **Employee_EmailID**: The email ID of the employee.  
+- **Secret_Child_Name**: The assigned Secret Child's name.  
+- **Secret_Child_EmailID**: The assigned Secret Child's email ID.  
 
-To run the program, 
-* Go to .....or download the code files.
-* Open index.html in the browser
-* Upload the employee file in the format specified above by clicking the button "Choose File" with the label "Employee File"
-* Upload the previous year secret santa file if available, in the format of output specified, above by clicking the button "Choose File" with the label "Previous year Secret
-  Santa file"
-* Click "Generate Secret Santa" button
-* Two new buttons would be available under the heading "Download files"
-  - SS File - This is the actual output in the format specified above
-  - Test File - This contains the additional column  "Prev_Secret_Child_EmailID" to make it easy to validate the results
-* The data is also displayed in the table format in the side.
-  
- The code is explained in **Design_document.txt.**
-The test document is present in **Test_document.txt**
+This program is built using plain **HTML, CSS, and JavaScript**.  
 
+---
 
-Happy playing.
+### **How to Run the Program**  
+1. Visit [URL] or download the code files.  
+2. Open `index.html` in your browser.  
+3. Upload the employee file (CSV) in the specified format by clicking the **"Choose File"** button labeled **"Employee File"**.  
+4. If available, upload the previous year's Secret Santa file (CSV) in the specified output format by clicking the **"Choose File"** button labeled **"Previous Year Secret Santa File"**.  
+5. Click the **"Generate Secret Santa"** button.  
+6. Two new buttons will appear under the **"Download Files"** section:  
+   - **SS File** – The final output file in the specified format.  
+   - **Test File** – A version of the output file with an additional column, **"Prev_Secret_Child_EmailID"**, to help validate the results.  
+7. The generated data is also displayed in a table format on the side.  
+
+For more details:  
+- **Design_document.txt** explains the program's implementation.  
+- **Test_document.txt** provides test case information.  
+
+**Happy Playing!** 🎉
