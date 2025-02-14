@@ -32,9 +32,9 @@ This program is built using plain **HTML, CSS, and JavaScript**.
 7. The generated data is also displayed in a table format on the side.  
 
 For more details:  
+Refer Docs folder for
 - **Design_document.txt** explains the program's implementation.  
 - **Test_document.txt** provides test case information.
-
-Sample source files are placed in "source" folder.
+Refer source folder for sample source files.
 
 **Happy Playing!** 🎉
