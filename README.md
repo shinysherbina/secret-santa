@@ -28,9 +28,8 @@ To run the program,
   - Test File - This contains the additional column  "Prev_Secret_Child_EmailID" to make it easy to validate the results
 * The data is also displayed in the table format in the side.
   
-
-The code is explained in Design_document.txt
-The test document is present in Test_document.txt
+ The code is explained in **Design_document.txt.**
+The test document is present in **Test_document.txt**
 
 
 Happy playing.
