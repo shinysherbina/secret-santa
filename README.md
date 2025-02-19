@@ -35,6 +35,6 @@ For more details:
 Refer Docs folder for
 - **Design_document.txt** explains the program's implementation.  
 - **Test_document.txt** provides test case information.
-Refer source folder for sample source files.
+Refer **source folder** for sample source files.
 
 **Happy Playing!** 🎉
